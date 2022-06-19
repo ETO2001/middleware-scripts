@@ -22,7 +22,7 @@ sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.3.
 
 sudo yum install unzip -y
 
-sudo unzip /opt/sonarqube-9.3.0.51899.zip -Y
+sudo unzip /opt/sonarqube-9.3.0.51899.zip -y
 
 sudo chown -R vagrant:vagrant /opt/sonarqube-9.3.0.51899
 
